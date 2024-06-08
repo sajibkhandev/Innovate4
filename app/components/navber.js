@@ -15,13 +15,13 @@ const Navber = () => {
       alt="Picture of the author"
     />
       <ul className='flex gap-x-[40px]'>
-        <li>Home</li>
-        <li>About</li>
-        <li>Service</li>
-        <li>Price</li>
-        <li>Blog</li>
+        <li className='font-semibold text-[#29313D]'>Home</li>
+        <li className='font-semibold text-[#29313D]'>About</li>
+        <li className='font-semibold text-[#29313D]'>Service</li>
+        <li className='font-semibold text-[#29313D]'>Price</li>
+        <li className='font-semibold text-[#29313D]'>Blog</li>
       </ul>
-    <button className='bg-blue-400 py-[14px] px-[28px]'>Contact Us</button>
+    <button className='bg-[#8454F5] rounded-[18px] text-white font-semibold py-[14px] px-[28px]'>Contact Us</button>
       </div>
       </div>
     </div>
