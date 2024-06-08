@@ -15,7 +15,17 @@ module.exports = {
     },
     spacing: {
       'container': '1170px',
-    }
+      '200': '200px',
+      '720': '720px',
+      '516': '516px',
+      
+      
+    },
+    colors:{
+      'primary':"#29313D",
+     
+    },
+   
   },
   plugins: [],
 };
