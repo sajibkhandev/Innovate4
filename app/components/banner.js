@@ -1,6 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
 import BannerImage from './../../public/bannerImage.png'
+import Image1 from './../../public/7.png'
+import Image2 from './../../public/8.png'
+import Image3 from './../../public/9.png'
+import Image4 from './../../public/10.png'
+import Image5 from './../../public/11.png'
+import Image6 from './../../public/12.png'
+
 
 const Banner = () => {
   return (
@@ -21,6 +28,16 @@ const Banner = () => {
             alt="Picture of the author"
           />
             </div>
+        </div>
+
+
+        <div className='flex justify-between py-[80px]'>
+        <Image src={Image1} alt="Picture of the author"/>
+        <Image src={Image2} alt="Picture of the author"/>
+        <Image src={Image3} alt="Picture of the author"/>
+        <Image src={Image4} alt="Picture of the author"/>
+        <Image src={Image5} alt="Picture of the author"/>
+        <Image src={Image6} alt="Picture of the author"/>
         </div>
 
     </div>
