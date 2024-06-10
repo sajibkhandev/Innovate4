@@ -4,7 +4,7 @@ import Icon from './../../public/serviceIcon1.png'
 
 const ServiceCart = () => {
     return (
-        <div className='group p-6 bg-white border border-solid border-[#E0D5FD] rounded-[30px] hover:bg-[#8454F5] '>
+        <div className='group duration-300 p-6 bg-white border border-solid border-[#E0D5FD] rounded-[30px] hover:bg-[#8454F5] '>
             <div className='flex gap-x-[14px] items-center'>
                 <Image
                     src={Icon}
