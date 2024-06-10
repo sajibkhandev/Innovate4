@@ -22,7 +22,7 @@ const Navber = () => {
             <li className='font-semibold text-[#29313D]'>Price</li>
             <li className='font-semibold text-[#29313D]'>Blog</li>
           </ul>
-          <button className='bg-[#8454F5] rounded-[18px] text-[#fff] font-semibold py-[14px] px-[28px]'>Contact Us</button>
+          <button className='bg-[#8454F5] rounded-[18px] text-[#fff] font-semibold py-[14px] px-[28px]  border border-solid border-[#8454F5] hover:bg-transparent hover:text-[#8454F5] duration-300 '>Contact Us</button>
         </div>
       </div>
     </div>
