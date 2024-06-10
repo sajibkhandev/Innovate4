@@ -11,7 +11,7 @@ import Image6 from './../../public/12.png'
 
 const Banner = () => {
   return (
-    <div className='max-w-container mx-auto'>
+    <div className='max-w-container mx-auto '>
         <div className='flex justify-between items-center'>
             <div>
                 <h2 className='text-[64px] text-primary font-bold w-720 pt-200'>Professional task manager tool to grow </h2>
@@ -31,7 +31,7 @@ const Banner = () => {
         </div>
 
 
-        <div className='flex justify-between py-[80px]'>
+        <div className='flex justify-between py-[80px] mt-[120px]'>
         <Image src={Image1} alt="Picture of the author"/>
         <Image src={Image2} alt="Picture of the author"/>
         <Image src={Image3} alt="Picture of the author"/>
