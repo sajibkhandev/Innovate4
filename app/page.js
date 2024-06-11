@@ -2,6 +2,7 @@ import Banner from "./components/banner";
 import Business from "./components/business";
 import Distibutate from "./components/distibutate";
 import Service from "./components/service";
+import Team from "./components/team";
 
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
   <Service/>
   <Business/>
   <Distibutate/>
+  <Team/>
   </>
 
   );

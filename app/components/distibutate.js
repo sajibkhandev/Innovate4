@@ -14,7 +14,7 @@ const Distibutate = () => {
         <div className='font-semibold text-[#8454F5] text-[20px] py-[26px] px-[62px] hover:bg-[#8454F5] hover:text-[#fff] my-[15px] rounded-[18px] duration-300'>Mobility Solutions</div>
            </div>
            {/* part two start */}
-           <div className='flex justify-between items-center pt-[120px]'>
+           <div className='flex justify-between items-center pt-[120px] pb-[120px]'>
           
             <Image
                 src={DistributeImage}
