@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import ImageIcon from '../../public/teamIcon.png'
+import TeamCart from './teamCart'
 
 const Team = () => {
     return (
@@ -18,7 +19,12 @@ const Team = () => {
             </div>
 
             {/* Cart start */}
-            
+            <div className='flex justify-between'>
+            <TeamCart/>
+            <TeamCart/>
+            <TeamCart/>
+            </div>
+
             {/* Cart end */}
 
 
