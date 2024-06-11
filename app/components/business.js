@@ -24,7 +24,8 @@ const Business = () => {
                     </div>
                     <div>
                         <h2 className='text-[56px] text-primary font-bold w-[689px] '>Join with any business tasks and any goals</h2>
-                        <p className='text-[18px] text-primary font-normal w-[575px] pt-6 '>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus temporibus autem.</p>
+                        <p className='text-[18px] text-primary font-normal w-[575px] pt-6 pb-12'>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus temporibus autem.</p>
+                        <button className='bg-[#8454F5] rounded-[18px] text-[#fff] font-semibold py-[14px] px-[28px]  border border-solid border-[#8454F5] hover:bg-transparent hover:text-[#8454F5] duration-300 '>Sign up</button>
                     </div>
 
                 </div>
