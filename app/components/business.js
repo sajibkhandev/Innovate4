@@ -5,15 +5,17 @@ import LayerImage2 from '../../public/businessLayer2.png'
 
 const Business = () => {
     return (
-        <div className='max-w-container mx-auto '>
-            <div className='flex justify-between items-center'>
-                <div className='relative'>
-                <Image
-                className='absolute top-0 -left-[100] -z-10 '
+        <div className='relative '>
+              <Image
+                className='absolute top-[50%] -translate-y-[50%] left-[0px] -z-10 '
                
                     src={LayerImage1}
                     alt="Picture of the author"
                 />
+                <div className='max-w-container mx-auto '>
+            <div className='flex justify-between items-center py-[180px]'>
+                <div className='relative'>
+              
                 <Image
                     src={LayerImage2}
                     alt="Picture of the author"
@@ -29,6 +31,8 @@ const Business = () => {
 
 
         </div>
+        </div>
+        
     )
 }
 
