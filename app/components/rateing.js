@@ -15,11 +15,11 @@ const Rateing = () => {
           <h6 className='text-[24px] text-[#545A64] font-semibold'>Watch a demo</h6>
             </div>
             <div className='w-7/12 flex justify-between'>
-            <div>
+            <div className='border-r-4 border-solid border-[#29313D]'>
                 <h4 className='text-[64px] text-primary font-semibold'>2.8x</h4>
                 <p className='w-[185px] text-lg text-[#29313D] font-normal pt-2'>We are ultra faste deal service</p>
             </div>
-            <div>
+            <div className='border-r-4 border-solid border-[#29313D]'>
                 <h4 className='text-[64px] text-primary font-semibold'>68%</h4>
                 <p className='w-[185px] text-lg text-[#29313D] font-normal pt-2'>More deal closed services</p>
             </div>
